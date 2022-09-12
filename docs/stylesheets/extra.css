@@ -1,5 +1,21 @@
-[data-md-color-scheme="slate"] {
-    --md-hue: 225; 
+/* This is going to take some serious tweaking and experimenting to dial in just right. */
+
+[data-md-color-scheme="adinf-dark"] {
+    /* Primary color shades */
+    --md-primary-fg-color:               black;         /* top section color (Ad infinitum, navigation) */
+
+    /* Accent color shades */
+    --md-accent-fg-color:                blue;          /* link hover-over color */
+    
+    /* Colors for markdown sections? */
+    --md-code-fg-color:                  black;         /* code block text color */
+    --md-code-bg-color:                  grey;          /* code block background */
+    --md-default-bg-color:               black;         /* center text section background color */
+    --md-typeset-color:                  white;         /* body text, table of contents text, navigation section text*/
+    --md-default-fg-color--light:        white;         /* color for h1 (single '#') text */
+
+    /* Footer color shades */
+    --md-footer-bg-color:                black;         /* header and footer background color */
 }
 
 /* Hide the previous and next buttons for all pages */

@@ -1,22 +1,26 @@
 site_name: Ad Infinitum
+# repo_url: https://github.com/Ad-Infinitum-Code/clan-website
 theme:
   name: material
+  favicon: assets/images/infinity.svg
+  icon:
+    logo: fontawesome/solid/infinity
+  
+  # Enable our custom html overrides
+  custom_dir: overrides
+
   palette:
   
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"         # user's system preference for light/dark via media query
       scheme: default
-      primary: blue grey      # used for the header, the sidebar, text links and several other components
-      accent: light blue      # used to denote elements that can be interacted with, e.g. hovered links, buttons and scrollbars
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"         # user's system preference for light/dark via media query
-      scheme: slate
-      primary: black          # used for the header, the sidebar, text links and several other components
-      accent: indigo          # used to denote elements that can be interacted with, e.g. hovered links, buttons and scrollbars
+      scheme: adinf-dark
       toggle:
         icon: material/weather-night
         name: Switch to light mode
@@ -28,6 +32,7 @@ theme:
     - navigation.top        # A back-to-top button can be shown when the user, after scrolling down, starts to scroll up again
     # - navigation.sections   # top-level sections are rendered as groups in the sidebar for viewports above 1220px, but remain as-is on mobile
     # - navigation.expand     # the left sidebar will expand all collapsible subsections by default, so the user doesn't have to open subsections manually
+    # - announce.dismiss      # Allow users to mark announcements as read and dismiss them
 
 # Include our custom css
 extra_css:
@@ -62,3 +67,17 @@ nav:
         - 'Vow of the Disciple': 'raids/vow-of-the-disciple/index.md'
         - 'Kings Fall': 'raids/kings-fall/index.md'
     - References: 'references/index.md'
+
+# Enable the use of icons and emojis by using simple shortcodes
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+
+# Watch our overrides folder, also triggering a reload for changes made within
+watch:
+  - overrides
