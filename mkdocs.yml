@@ -47,7 +47,7 @@ extra:
 # Custom nav layout to ensure raids/dungeons are listed in chronological order
 nav:
     - Home: 'index.md'
-    - Clan: 'clan/about.md'
+    - Clan: 'clan/index.md'
     - Dungeons:
         - 'Shattered Throne': 'dungeons/shattered-throne/index.md'
         - 'Pit of Heresy': 'dungeons/pit-of-heresy/index.md'
