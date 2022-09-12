@@ -1,0 +1,8 @@
+[data-md-color-scheme="slate"] {
+    --md-hue: 225; 
+}
+
+/* Hide the previous and next buttons for all pages */
+.md-footer__inner:not([hidden]) {
+    display: none
+}

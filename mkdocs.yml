@@ -1,0 +1,64 @@
+site_name: Ad Infinitum
+theme:
+  name: material
+  palette:
+  
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"         # user's system preference for light/dark via media query
+      scheme: default
+      primary: blue grey      # used for the header, the sidebar, text links and several other components
+      accent: light blue      # used to denote elements that can be interacted with, e.g. hovered links, buttons and scrollbars
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"         # user's system preference for light/dark via media query
+      scheme: slate
+      primary: black          # used for the header, the sidebar, text links and several other components
+      accent: indigo          # used to denote elements that can be interacted with, e.g. hovered links, buttons and scrollbars
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  
+  features:
+    - navigation.tabs       # top-level sections are rendered in a menu layer below the header for viewports above 1220px, but remain as-is on mobile
+    - navigation.instant    # clicks on all internal links will be intercepted and dispatched via XHR without fully reloading the page
+    - navigation.tracking   # URL in the address bar is automatically updated with the active anchor as highlighted in the table of contents
+    - navigation.top        # A back-to-top button can be shown when the user, after scrolling down, starts to scroll up again
+    # - navigation.sections   # top-level sections are rendered as groups in the sidebar for viewports above 1220px, but remain as-is on mobile
+    # - navigation.expand     # the left sidebar will expand all collapsible subsections by default, so the user doesn't have to open subsections manually
+
+# Include our custom css
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  generator: false          # remove Made with Material for MkDocs notice
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/adinf
+      name: Ad Infinitum Discord
+    
+    - icon: fontawesome/brands/git
+      link: https://github.com/Ad-Infinitum-Code
+      name: Ad Infinitum Github
+
+# Custom nav layout to ensure raids/dungeons are listed in chronological order
+nav:
+    - Home: 'index.md'
+    - Clan: 'clan/about.md'
+    - Dungeons:
+        - 'Shattered Throne': 'dungeons/shattered-throne/index.md'
+        - 'Pit of Heresy': 'dungeons/pit-of-heresy/index.md'
+        - 'Prophecy': 'dungeons/prophecy/index.md'
+        - 'Grasp of Avarice': 'dungeons/grasp-of-avarice/index.md'
+        - 'Duality': 'dungeons/duality/index.md'
+    - Raids:
+        - 'Last Wish': 'raids/last-wish/index.md'
+        - 'Garden of Salvation': 'raids/garden-of-salvation/index.md'
+        - 'Deep Stone Crypt': 'raids/deep-stone-crypt/index.md'
+        - 'Vault of Glass': 'raids/vault-of-glass/index.md'
+        - 'Vow of the Disciple': 'raids/vow-of-the-disciple/index.md'
+        - 'Kings Fall': 'raids/kings-fall/index.md'
+    - Extra References: 'references/index.md'
