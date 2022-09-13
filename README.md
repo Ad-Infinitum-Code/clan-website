@@ -106,6 +106,12 @@ Assuming you have the environment set up and virtual environment activated, it s
 
     `[Ctrl] + [C]`
 
+If you want to see what the file structure looks like after building with mkdocs, run the following:
+
+- `mkdocs build`
+
+You'll now have a site folder containing all the generated static site files. This is essentially what the Github Actions does, generate everything and then host the `site` folder
+
 ### Windows
 
 TBD
