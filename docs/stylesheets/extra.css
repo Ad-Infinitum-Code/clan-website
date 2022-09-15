@@ -18,6 +18,24 @@
     --md-footer-bg-color:                black;         /* header and footer background color */
 }
 
+/* Add some girth to the header */
+.md-header {
+    height: 3rem;
+    padding-top: .25rem;
+}
+
+/* Tweak the title text in the header (Ad Infinitum) */
+.md-header__ellipsis {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* Make the font size for the tab links bigger */
+.md-tabs__link {
+    font-size: 1rem;
+}
+
 /* Hide the previous and next buttons for all pages */
 .md-footer__inner:not([hidden]) {
     display: none
