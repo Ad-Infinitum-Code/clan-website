@@ -17,6 +17,8 @@
 
 This repo is used to create/host the Ad Infinitum clan website, powered by [MkDocs](https://www.mkdocs.org/) and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) and hosted via [Github Actions](https://github.com/features/actions).
 
+Available here: https://ad-infinitum-code.github.io/clan-website/
+
 ## Repo Structure
 
 Here's a basic rundown of how everything is laid out:
