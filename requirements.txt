@@ -10,7 +10,6 @@ mkdocs-glightbox==0.2.1
 mkdocs-material==8.5.0
 mkdocs-material-extensions==1.0.3
 packaging==21.3
-pkg_resources==0.0.0
 Pygments==2.13.0
 pymdown-extensions==9.5
 pyparsing==3.0.9
