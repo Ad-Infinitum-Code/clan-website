@@ -3,7 +3,8 @@ hide:
   - navigation
 ---
 
-# Extra References
+Extra References
+====================================================================
 
 Here are links to various utilities, spreadsheets, official communications, and anything else to enhance your Destiny 2 experience.
 
@@ -19,7 +20,9 @@ Template for links to open in new tab:
 -->
 
 
-## Utilities
+Utilities
+--------------------------------------------------------------------
+
 
 Most of these sites will require authentication with Bungie.net in order to interact with the API and provide functionality. Authenticating is as easy as hitting the `login` or `authorize with Bungie` button and sign into Bungie.net how you normally would.
 
@@ -80,7 +83,8 @@ Destiny Optimizer makes the power level grind more manageable every season. It'l
 Another website showing everything that's currently available. However, they have a really useful Eververse Calendar (found under `EV Calendar` at the top) that shows the predicted Eververse offerings for the entire season. This allows you to see when/if a particular item will be coming back around, ever sold for bright dust, etc.
 
 
-## Report Sites
+Report Sites
+--------------------------------------------------------------------
 
 These sites are useful for looking up stats for various activies.
 
@@ -109,7 +113,8 @@ Lookup trials stats for any player, provided you have their full Bungie ID. Look
 Lookup Destiny 2 stats for any player, provided you have their Bungie ID or platform ID. Check out activity elo, match history, historic seasonal stats, recent matches, etc. Lots of information provided.
 
 
-## Spreadsheets
+Spreadsheets
+--------------------------------------------------------------------
 
 These are community maintained spreadsheets that contain a vast amount of detailed information, definitely check them out!
 
@@ -120,7 +125,8 @@ These are community maintained spreadsheets that contain a vast amount of detail
 ### <a href="https://docs.google.com/spreadsheets/d/1_6zsM7kzvg0aUT8YtM_-Wg_5K1gKDOlrwfVzutEjq-s/htmlview" target="_blank">Massive Breakdown's Destiny 2 Weapon Stats Spreadsheet</a>
 
 
-## Official
+Official
+--------------------------------------------------------------------
 
 Links to official Bungie/Destiny 2 sources.
 

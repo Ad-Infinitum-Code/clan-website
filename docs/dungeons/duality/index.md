@@ -1,10 +1,15 @@
-# Duality
+Duality
+====================================================================
 
-## Loot table
+
+Loot table
+--------------------------------------------------------------------
 
 (insert picture or text of loot table)
 
-## Walkthrough
+
+Walkthrough
+--------------------------------------------------------------------
 
 ### Introduction
 
@@ -101,10 +106,14 @@ There are certain map geometries/interactibles that are only available in one of
 
 (textual walkthrough of the whole encounter)
 
-## Master mode
+
+Master mode
+--------------------------------------------------------------------
 
 (identify everything that changes when doing Master vs Normal)
 
-## Triumphs
+
+Triumphs
+--------------------------------------------------------------------
 
 (walkthrough for all the challenges/lore/triumphs/collectibles for the dungeon)
