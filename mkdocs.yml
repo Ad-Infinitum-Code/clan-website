@@ -33,6 +33,7 @@ theme:
     # - navigation.sections   # top-level sections are rendered as groups in the sidebar for viewports above 1220px, but remain as-is on mobile
     # - navigation.expand     # the left sidebar will expand all collapsible subsections by default, so the user doesn't have to open subsections manually
     # - announce.dismiss      # Allow users to mark announcements as read and dismiss them
+    - search.suggest        # search will display the likeliest completion for the last word which can be accepted with the [->] key
 
 # Include our custom css
 extra_css:
@@ -71,6 +72,7 @@ nav:
 # Enable the use of icons and emojis by using simple shortcodes
 markdown_extensions:
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -81,3 +83,16 @@ markdown_extensions:
 # Watch our overrides folder, also triggering a reload for changes made within
 watch:
   - overrides
+
+# Plugins and whatnot
+plugins:
+  - search:
+      lang: en
+  - glightbox:
+      touchNavigation: false
+      loop: false
+      effect: none
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: false

@@ -13,6 +13,7 @@
     --md-default-bg-color:               black;         /* center text section background color */
     --md-typeset-color:                  white;         /* body text, table of contents text, navigation section text*/
     --md-default-fg-color--light:        white;         /* color for h1 (single '#') text */
+    --md-default-fg-color:               white;         /* text color for search entry */
 
     /* Footer color shades */
     --md-footer-bg-color:                black;         /* header and footer background color */
