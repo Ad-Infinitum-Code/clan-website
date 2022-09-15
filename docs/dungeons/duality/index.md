@@ -1,24 +1,52 @@
+<!-- 
+
+Template for links to open in new tab:
+
+<a href="[url]" target="_blank">[display_text]</a> 
+
+-->
+
+
 Duality
 ====================================================================
+
+Released: 27 May 2022
+
+Power level:
+
+- Normal: 1550?
+- Master: 1590?
 
 
 Loot table
 --------------------------------------------------------------------
 
-(insert picture or text of loot table)
+<figure markdown>
+  ![Duality Loot Table](duality-loot-table.png){ loading=lazy }
+  <figcaption>Duality loot table</figcaption>
+</figure>
+
+
+Video Guides
+--------------------------------------------------------------------
+
+Here are some of the popular video guides for the dungeon:
+
+<a href="https://www.youtube.com/watch?v=WniU18Fuo4k" target="_blank">Datto - Destiny 2: Full Duality Dungeon Guide & Secret Memory and Chest Locations</a> 
+
+<a href="https://www.youtube.com/watch?v=LHTIiDvPC94" target="_blank">Fallout Plays - Destiny 2: Complete DUALITY Dungeon Guide (& Final Boss 1 Phase!)</a> 
+
+<a href="https://www.youtube.com/watch?v=6QGD1nK5RT4" target="_blank">Esoterickk - All 12 Duality Dungeon Collectibles Location Guide - All of Calus's Repressed Memories [Destiny 2]</a> 
+
+<a href="https://www.youtube.com/watch?v=E5B9vwYAhE8" target="_blank">Aztecross - The Complete Duality Dungeon Guide (All Secret Chests + MASTER) | Destiny 2 Season of the Haunted</a> 
 
 
 Walkthrough
 --------------------------------------------------------------------
 
-### Introduction
+Introduction
 
 The Duality dungeon is available from the moon:leviathan node. If you don't see the node for it, or have never done the dungeon before, you'll have to talk to Suraya Hawthorne(sp?) first and obtain a quest item for some reason.
-
-Available modes:
-
-- Normal - 1560 power
-- Master? - 1590 power?
 
 ### First loading in
 
@@ -33,10 +61,10 @@ Upon dropping down from Eris, walk forward to the fence ahead of you and you'll 
 #### Bell Mechanic
 (insert picture of the first bell)
 
-The bell mechanic can best be described as a trigger to change between realms, the `Normal Realm` and what I like to call the `Shadow Realm`. 
+The bell mechanic can best be described as a trigger to change between realms, the `Normal Realm` the `Nightmare Realm`. 
 
 - `Normal Realm` - Everyday regular destiny
-- `Shadow Realm` - Everything is red and darker
+- `Nightmare Realm` - Everything is red and darker
 
 There are certain map geometries/interactibles that are only available in one of the given realms. Our goal is to use the bells to navigate through the transition area, swapping between realms as needed to progress.
 
@@ -110,10 +138,22 @@ There are certain map geometries/interactibles that are only available in one of
 Master mode
 --------------------------------------------------------------------
 
-(identify everything that changes when doing Master vs Normal)
+Along with the obvious increase in activity power level, here are the following changes for the Master version:
+
+- Match Game is enabled
+- Bellkeepers throughout the dungeon have void shields
+- First encounter:
+    - When depositing a Standard, the Colossus are now Unstoppable Champions.
+- Second encounter:
+    - The Colossus are now Barrier Champions on the platforms where you grab the Standard.
+- Boss encounter:
+    - The Colossus in the `Nightmare Realm` are now Barrier Champions. 
 
 
 Triumphs
 --------------------------------------------------------------------
 
-(walkthrough for all the challenges/lore/triumphs/collectibles for the dungeon)
+<figure markdown>
+  ![Duality Triumphs](duality-triumphs.png){ loading=lazy }
+  <figcaption>Duality triumphs</figcaption>
+</figure>
