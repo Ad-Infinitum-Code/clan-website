@@ -77,6 +77,26 @@ Braytech takes some exploring to really see it's benefits and features. The main
 
 Destiny Optimizer makes the power level grind more manageable every season. It'll analyze your current power level, pinnacle/powerful sources available, and give you a recommended path to maximize all your drops. It takes a little bit for all the new drop sources to be added/categorized each season, but it helps the grind tremendously!
 
+<!-- d2armorpicker -->
+### <a href="https://d2armorpicker.com/" target="_blank">D2ArmorPicker</a>
+
+"D2ArmorPicker is a small tool to min-max your armor stats with only a few clicks."
+
+This tool makes buildcrafting and stat min-maxing super easy. Use this to figure out which armor pieces and mods you need to hit certain stat thresholds, then open in DIM to add the rest of your mods, transmog, weapons, etc. and save it as a loadout!
+
+<!-- destiny recipes -->
+### <a href="https://destinyrecipes.com/" target="_blank">Destiny Recipes</a>
+
+This site has a couple useful tools:
+
+- Pre-seasonal Checklist - Very in-depth checklist/calculator for bounty/xp/resource prepping before a new season
+
+- Loot Companion - Check your loot in real time and auto-lock interesting items
+
+- Vault Cleaner - Super helpful for cleaning your vault. Can group weapons by archetype or element or both to help filter down what you keep.
+
+- Power Level Progress - Pretty similar to Destiny Optimizer (probably), I've never used it though.
+
 <!-- todayindestiny -->
 ### <a href="https://www.todayindestiny.com/" target="_blank">Today in Destiny</a> 
 
