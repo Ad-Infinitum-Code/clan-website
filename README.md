@@ -122,3 +122,40 @@ TBD
 ## Pushing your changes
 
 Ideally, your changes should be on a different branch than master. Make your own branch, push your changes to it, and then open a pull request to have them merged in.
+
+## Dependency management via pip-tools
+
+Simply installing the required packages via `pip3 install -r requirements.txt` should be enough to develop locally.
+
+However, `pip-tools` provides a nice interface for managing main/dev requirements.
+
+### Setup
+
+1. Create a virtual environment and activate it
+    - `python3 -m venv venv`
+    - `source venv/bin/activate`
+
+2. Install pip-tools
+    - `pip3 install pip-tools`
+
+3. Install required main dependencies
+    - `pip-sync`
+
+4. You should be good to go
+
+### Extras
+
+To install the dev dependencies:
+
+- `pip-sync requirements.txt dev-requirements.txt`
+
+- Note: there's only pip-tools in there for now
+
+To update main dependencies:
+
+- `pip-compile requirements.in`
+
+To update dev dependencies:
+
+- update the main dependencies per above
+- `pip-compile requirements-dev.in`
