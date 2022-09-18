@@ -1,0 +1,29 @@
+extra:
+  season_num: 18
+  season_name: Season of Plunder
+  season_url: 'https://www.bungie.net/7/en/Seasons/SeasonOfPlunder'
+  power:
+    base: &base 1350
+    soft: &soft 1520
+    powerful: 1570
+    pinnacle: 1580
+    master_mode: &master_mode 1600
+    gm: 1620
+  raids:
+    lw: *base
+    gos: *base
+    dsc: *base
+    vog_normal: *base
+    vog_master: *master_mode
+    vow_normal: *soft
+    vow_master: *master_mode
+    kf_normal: 1550
+    kf_master: *master_mode
+  dungeons:
+    st: *base
+    pit: *base
+    proph: *base
+    grasp_normal: *base
+    grasp_master: *master_mode
+    duality_normal: 1550
+    duality_master: *master_mode

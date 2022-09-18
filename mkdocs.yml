@@ -1,5 +1,4 @@
 site_name: Ad Infinitum
-# repo_url: https://github.com/Ad-Infinitum-Code/clan-website
 theme:
   name: material
   favicon: assets/images/infinity.svg
@@ -10,10 +9,9 @@ theme:
   custom_dir: overrides
 
   palette:
-  
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"         # user's system preference for light/dark via media query
-      scheme: default
+      scheme: adinf-light
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
@@ -80,9 +78,10 @@ markdown_extensions:
         custom_icons:
           - overrides/.icons
 
-# Watch our overrides folder, also triggering a reload for changes made within
+# Watch additional folders, also triggering a reload for changes made within
 watch:
   - overrides
+  - extra-yaml
 
 # Plugins and whatnot
 plugins:
@@ -96,3 +95,6 @@ plugins:
       height: auto
       zoomable: true
       draggable: false
+  - macros:
+      include_yaml:
+        - extra-yaml/d2-vars.yml
