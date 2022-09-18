@@ -52,6 +52,7 @@ extra:
 nav:
     - Home: 'index.md'
     - Clan: 'clan/index.md'
+    - 'Current Season': 'current_season/index.md'
     - Dungeons:
         - 'Shattered Throne': 'dungeons/shattered-throne/index.md'
         - 'Pit of Heresy': 'dungeons/pit-of-heresy/index.md'
