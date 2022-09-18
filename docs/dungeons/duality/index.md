@@ -14,8 +14,8 @@ Released: 27 May 2022
 
 Power level:
 
-- Normal: 1550?
-- Master: 1590?
+- Normal: {{ dungeons.duality_normal }}
+- Master: {{ dungeons.duality_master }}
 
 
 Loot table
