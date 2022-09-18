@@ -1,5 +1,13 @@
 /* This is going to take some serious tweaking and experimenting to dial in just right. */
 
+[data-md-color-scheme="adinf-light"] {
+    /* Primary color shades */
+    --md-primary-fg-color:               rgb(25, 125, 255);          /* top section color (Ad infinitum, navigation) */
+    
+    /* Footer color shades */
+    --md-footer-bg-color:                black;         /* header and footer background color */
+}
+
 [data-md-color-scheme="adinf-dark"] {
     /* Primary color shades */
     --md-primary-fg-color:               black;         /* top section color (Ad infinitum, navigation) */
