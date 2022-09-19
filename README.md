@@ -31,6 +31,8 @@ Here's a basic rundown of how everything is laid out:
 
 - `mkdocs.yml` - contains all the config for MkDocs
 
+- `extra-yaml` - contains more .yml files that can be used as variables within the .md files
+
 ## Docs Structure
 
 The goal is to organize the files into subdirectories based on how they'll be displayed on the site.
