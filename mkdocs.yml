@@ -105,3 +105,11 @@ plugins:
       type: date
       enable_creation_date: true
       fallback_to_build_date: true
+  - minify:
+      minify_html: true
+      minify_js: false
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+      css_files:
+        - stylesheets/extra.css
