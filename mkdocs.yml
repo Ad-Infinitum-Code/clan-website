@@ -1,9 +1,12 @@
 site_name: Ad Infinitum
+repo_url: https://github.com/Ad-Infinitum-Code/clan-website
+edit_uri: ""
 theme:
   name: material
   favicon: assets/images/infinity.svg
   icon:
     logo: fontawesome/solid/infinity
+    repo: fontawesome/brands/github
   
   # Enable our custom html overrides
   custom_dir: overrides
@@ -98,6 +101,10 @@ plugins:
   - macros:
       include_yaml:
         - extra-yaml/d2-vars.yml
+  - git-revision-date-localized:
+      type: date
+      enable_creation_date: true
+      fallback_to_build_date: true
   - minify:
       minify_html: true
       minify_js: false
