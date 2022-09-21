@@ -160,4 +160,6 @@ To update main dependencies:
 To update dev dependencies:
 
 - update the main dependencies per above
-- `pip-compile requirements-dev.in`
+- `pip-compile dev-requirements.in`
+
+There's also a script: `scripts/generate-requirements.sh` that'll install all main/dev requirements in one shot. Note: you'll need to have a venv setup beforehand

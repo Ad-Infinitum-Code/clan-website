@@ -6,7 +6,7 @@ on:
     paths-ignore:
       - '**/README.md'
       - '**/.gitignore'
-      - 'generate-requirements.sh'
+      - 'scripts/generate-requirements.sh'
 jobs:
   deploy:
     runs-on: ubuntu-latest
