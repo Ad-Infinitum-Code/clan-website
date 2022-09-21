@@ -3,6 +3,9 @@ on:
   schedule:
     # - cron: 0 17 * * 2 # Every tuesday at 1700 UTC (weekly reset)
     - cron: '*/5 * * * *' # TESTING: every 2 minutes
+  push:
+    branches:
+      - 20-add-weeklies-section
 
 jobs:
   update:
