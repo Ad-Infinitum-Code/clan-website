@@ -29,5 +29,3 @@ Written walkthroughs, video guides, strategies, loadouts, tips, loot tables
 ## Extra References
 
 Links to various helpful spreadsheets, utility sites, etc.
-
-test?
