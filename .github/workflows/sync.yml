@@ -1,8 +1,8 @@
 name: sync_master_to_actions
-  on:
-    push:
-      branches:
-        - master
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   sync:
