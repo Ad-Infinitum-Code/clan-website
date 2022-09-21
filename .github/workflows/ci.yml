@@ -12,12 +12,18 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - name: Check out repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0                          # Recommended for mkdocs-git-revision-date-localized-plugin
+      
+      - name: Set up python
+        uses: actions/setup-python@v4
         with:
           python-version: 3.x
-          fetch-depth: 0                          # Recommended for mkdocs-git-revision-date-localized-plugin
-      - run: |
-          pip install -r requirements.txt
+        run: pip install -r requirements.txt
+
+      - name: Deploy site
+        run: |
           python3 scripts/weeklies/generate_weekly_rotations.py
           mkdocs gh-deploy --force
