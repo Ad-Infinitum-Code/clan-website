@@ -55,6 +55,7 @@ extra:
 nav:
     - Home: 'index.md'
     - Clan: 'clan/index.md'
+    - Weeklies: 'weeklies/index.md'
     - Dungeons:
         - 'Shattered Throne': 'dungeons/shattered-throne/index.md'
         - 'Pit of Heresy': 'dungeons/pit-of-heresy/index.md'
@@ -101,6 +102,7 @@ plugins:
   - macros:
       include_yaml:
         - extra-yaml/d2-vars.yml
+        - extra-yaml/weeklies.yml
   - git-revision-date-localized:
       type: date
       enable_creation_date: true

@@ -1,3 +1,5 @@
 # Constrain dev dependency versions to main versions
 -c requirements.txt
 pip-tools
+black
+importanize

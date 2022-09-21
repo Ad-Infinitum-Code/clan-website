@@ -64,8 +64,12 @@ mkdocs-material-extensions==1.0.3
     # via mkdocs-material
 mkdocs-minify-plugin==0.5.0
     # via -r requirements.in
+numpy==1.23.3
+    # via pandas
 packaging==21.3
     # via mkdocs
+pandas==1.5.0
+    # via -r requirements.in
 pygments==2.13.0
     # via mkdocs-material
 pymdown-extensions==9.5
@@ -76,8 +80,11 @@ python-dateutil==2.8.2
     # via
     #   ghp-import
     #   mkdocs-macros-plugin
+    #   pandas
 pytz==2022.2.1
-    # via babel
+    # via
+    #   babel
+    #   pandas
 pyyaml==6.0
     # via
     #   mkdocs

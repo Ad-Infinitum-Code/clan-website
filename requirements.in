@@ -1,5 +1,9 @@
+# Overall mkdocs requirements
 mkdocs-material
 mkdocs-glightbox
 mkdocs-macros-plugin
 mkdocs-git-revision-date-localized-plugin
 mkdocs-minify-plugin
+
+# Scripts requirements
+pandas
