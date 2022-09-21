@@ -21,9 +21,12 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: 3.x
+      
+      - name: Install pip requirements
+        run: pip install -r requirements.txt
+
+      - name: Generate weeklies.yml
+        run: python3 scripts/weeklies/generate_weekly_rotations.py
 
       - name: Deploy site
-        run: |
-          pip install -r requirements.txt
-          python3 scripts/weeklies/generate_weekly_rotations.py
-          mkdocs gh-deploy --force
+        run: mkdocs gh-deploy --force
