@@ -1,8 +1,5 @@
 name: weekly_reset
 on:
-  schedule:
-    # - cron: 0 17 * * 2 # Every tuesday at 1700 UTC (weekly reset)
-    - cron: '*/5 * * * *' # TESTING: every 2 minutes
   push:
     branches:
       - 20-add-weeklies-section
@@ -22,7 +19,7 @@ jobs:
       - name: Run the script
         run: |
           pip install -r requirements.txt
-          python3 scripts/generate_weekly_rotations.py
+          python3 scripts/weeklies/generate_weekly_rotations.py
 
       - name: Add generated weeklies.yml
         uses: EndBug/add-and-commit@v9
