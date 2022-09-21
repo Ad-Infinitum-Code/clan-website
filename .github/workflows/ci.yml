@@ -8,11 +8,14 @@ on:
       - '**/.gitignore'
       - 'scripts/generate-requirements.sh'
       - 'scripts/weeklies/*'
+
+env:
+  GITHUB_TOKEN: ${{ secrets.OV_GH_ACTIONS_TOKEN }}
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - env: GITHUB_TOKEN: ${{ secrets.OV_GH_ACTIONS_TOKEN }}
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
         with:
