@@ -10,6 +10,11 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
+      
+      - name: Set Git config
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "Github Actions"
 
       - name: Merge master
         run: |
