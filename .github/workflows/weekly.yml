@@ -12,6 +12,7 @@ jobs:
   update_weeklies:
     runs-on: ubuntu-latest
     steps:
+      - env: GITHUB_TOKEN: ${{ secrets.OV_GH_ACTIONS_TOKEN }}
       - name: Checkout repo
         uses: actions/checkout@v3
       
