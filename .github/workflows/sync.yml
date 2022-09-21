@@ -10,6 +10,13 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
+
+      - name: Merge master
+        run: |
+          git fetch --unshallow
+          git checkout ACTIONS
+          git pull
+          git merge --no-ff master -m "Sync master to ACTIONS"
       
       - name: Push changes
         uses: EndBug/add-and-commit@v9
