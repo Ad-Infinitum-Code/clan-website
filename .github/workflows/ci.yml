@@ -2,23 +2,16 @@ name: ci
 on:
   push:
     branches:
-      - ACTIONS 
+      - master 
     paths-ignore:
       - '**/README.md'
       - '**/.gitignore'
-      - 'scripts/generate-requirements.sh'
-      - 'scripts/weeklies/*'
-
-env:
-  GITHUB_TOKEN: ${{ secrets.OV_GH_ACTIONS_TOKEN }}
+      - 'scripts/*'
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - env:
-          GITHUB_TOKEN: ${{ secrets.OV_GH_ACTIONS_TOKEN }}
-          
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
         with:
