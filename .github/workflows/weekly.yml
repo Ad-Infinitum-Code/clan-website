@@ -5,7 +5,7 @@ on:
       - 20-add-weeklies-section
 
 jobs:
-  update:
+  update_weeklies:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -25,5 +25,5 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           add: 'extra-yaml/weeklies.yml'
-          author_name: 'Weekly Reset Bot'
-          author_email: 'WeeklyResetBot@AdInfinitumClan.com'
+          # author_name: 'Weekly Reset Bot'
+          # author_email: 'WeeklyResetBot@AdInfinitumClan.com'
