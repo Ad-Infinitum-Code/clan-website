@@ -1,0 +1,32 @@
+name: weekly_reset
+on:
+  schedule:
+    - cron: 0 17 * * 2 # Every tuesday at 1700 UTC (weekly reset)
+  push:
+    branches:
+      - master
+    paths:
+      - 'scripts/weeklies/*'  # Changes to weeklies folder
+
+jobs:
+  update_weeklies:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      
+      - name: Set up python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+      
+      - name: Install pip requirements
+        run: pip install -r requirements.txt
+
+      - name: Run the script
+        run: python3 scripts/weeklies/generate_weekly_rotations.py
+
+      - name: Add generated weeklies.yml
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: 'extra-yaml/weeklies.yml'

@@ -1,0 +1,33 @@
+18:
+  name: Season of Plunder
+  start: 23 Aug 2022
+  end: 06 Dec 2022
+  vanguard:
+    - Solar
+    - Void
+    - Arc
+  nightfall: 
+    - The Glassway
+    - The Lightblade
+    - Fallen S.A.B.E.R
+    - The Disgraced
+    - Exodus Crash
+    - The Devil's Lair
+  adept:
+    - D.F.A
+    - Mindbender's Ambition
+    - Duty Bound
+    - The Militia's Birthright
+    - Horror's Least
+    - ???
+  dungeon:
+    - Shattered Throne
+    - Pit of Heresy
+    - Prophecy
+    - Grasp of Avarice
+  raid:
+    - Last Wish
+    - Garden of Salvation
+    - Deep Stone Crypt
+    - Vault of Glass
+    - Vow of the Disciple
