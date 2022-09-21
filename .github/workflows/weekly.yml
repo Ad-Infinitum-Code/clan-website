@@ -21,7 +21,7 @@ jobs:
 
       - name: Add generated weeklies.yml
         uses: EndBug/add-and-commit@v9
-          with:
-            add: 'extra-yaml/weeklies.yml'
-            author_name: 'Weekly Reset Bot'
-            author_email: 'WeeklyResetBot@AdInfinitumClan.com'
+        with:
+          add: 'extra-yaml/weeklies.yml'
+          author_name: 'Weekly Reset Bot'
+          author_email: 'WeeklyResetBot@AdInfinitumClan.com'
