@@ -2,11 +2,12 @@ name: ci
 on:
   push:
     branches:
-      - master 
+      - ACTIONS 
     paths-ignore:
       - '**/README.md'
       - '**/.gitignore'
       - 'scripts/generate-requirements.sh'
+      - 'scripts/weeklies/*'
 jobs:
   deploy:
     runs-on: ubuntu-latest
