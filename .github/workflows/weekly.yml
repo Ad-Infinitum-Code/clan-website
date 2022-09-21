@@ -11,10 +11,12 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
       
-      - name: Set up python, run script
+      - name: Set up python
         uses: actions/setup-python@v4
         with:
           python-version: 3.x
+
+      - name: Run the script
         run: |
           pip install -r requirements.txt
           python3 scripts/generate_weekly_rotations.py
