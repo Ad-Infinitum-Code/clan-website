@@ -27,9 +27,7 @@ htmlmin==0.1.12
 idna==3.4
     # via requests
 importlib-metadata==4.12.0
-    # via
-    #   markdown
-    #   mkdocs
+    # via mkdocs
 jinja2==3.1.2
     # via
     #   mkdocs
@@ -58,7 +56,7 @@ mkdocs-glightbox==0.2.1
     # via -r requirements.in
 mkdocs-macros-plugin==0.7.0
     # via -r requirements.in
-mkdocs-material==8.5.3
+mkdocs-material==8.5.4
     # via -r requirements.in
 mkdocs-material-extensions==1.0.3
     # via mkdocs-material
