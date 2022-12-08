@@ -7,15 +7,7 @@ hide:
 
 # Weeklies - {{ weekly.date }}
 
-<div style="display:flex;align-items:center;">
-  <p style="height:1rem;vertical-align:middle;padding-right:0.25rem;">
-    Vanguard singe:
-  </p>
-  <img src="{{ weekly.vanguard }}.png" style="height:1rem;vertical-align:middle;padding-right:0.125rem"/>
-  <p style="height:1rem;vertical-align:middle;">
-    {{ weekly.vanguard }}
-  </p>
-</div>
+Vanguard singe: {{ weekly.vanguard }}
 
 Nightfall: {{ weekly.nightfall }}
 
