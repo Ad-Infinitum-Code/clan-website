@@ -44,7 +44,7 @@ extra:
   generator: false          # remove Made with Material for MkDocs notice
   social:
     - icon: fontawesome/brands/discord
-      link: https://discord.gg/adinf
+      link: https://discord.gg/tdWCg7vddT
       name: Ad Infinitum Discord
     
     - icon: fontawesome/brands/git
