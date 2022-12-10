@@ -27,3 +27,5 @@ extra:
     grasp_master: *master_mode
     duality_normal: 1550
     duality_master: *master_mode
+    spire_normal: 1570
+    spire_master: *master_mode
