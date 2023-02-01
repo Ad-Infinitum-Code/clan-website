@@ -4,7 +4,7 @@
 #
 #    pip-compile dev-requirements.in
 #
-black==22.10.0
+black==23.1.0
     # via -r dev-requirements.in
 build==0.9.0
     # via pip-tools
@@ -20,6 +20,7 @@ mypy-extensions==0.4.3
 packaging==22.0
     # via
     #   -c requirements.txt
+    #   black
     #   build
 pathlib2==2.3.7.post1
     # via importanize
@@ -36,12 +37,6 @@ six==1.16.0
     #   -c requirements.txt
     #   importanize
     #   pathlib2
-tomli==2.0.1
-    # via
-    #   black
-    #   build
-typing-extensions==4.4.0
-    # via black
 wheel==0.38.4
     # via pip-tools
 
