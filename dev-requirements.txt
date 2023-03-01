@@ -27,7 +27,7 @@ pathspec==0.10.2
     # via black
 pep517==0.13.0
     # via build
-pip-tools==6.11.0
+pip-tools==6.12.3
     # via -r dev-requirements.in
 platformdirs==2.6.0
     # via black
@@ -36,12 +36,6 @@ six==1.16.0
     #   -c requirements.txt
     #   importanize
     #   pathlib2
-tomli==2.0.1
-    # via
-    #   black
-    #   build
-typing-extensions==4.4.0
-    # via black
 wheel==0.38.4
     # via pip-tools
 
