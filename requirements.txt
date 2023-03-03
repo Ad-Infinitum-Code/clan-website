@@ -26,10 +26,6 @@ htmlmin==0.1.12
     # via mkdocs-minify-plugin
 idna==3.4
     # via requests
-importlib-metadata==5.1.0
-    # via
-    #   markdown
-    #   mkdocs
 jinja2==3.1.2
     # via
     #   mkdocs
@@ -52,7 +48,7 @@ mkdocs==1.4.2
     #   mkdocs-macros-plugin
     #   mkdocs-material
     #   mkdocs-minify-plugin
-mkdocs-git-revision-date-localized-plugin==1.1.0
+mkdocs-git-revision-date-localized-plugin==1.2.0
     # via -r requirements.in
 mkdocs-glightbox==0.3.1
     # via -r requirements.in
@@ -82,6 +78,7 @@ python-dateutil==2.8.2
 pytz==2022.6
     # via
     #   babel
+    #   mkdocs-git-revision-date-localized-plugin
     #   pandas
 pyyaml==6.0
     # via
@@ -104,5 +101,3 @@ urllib3==1.26.13
     # via requests
 watchdog==2.2.0
     # via mkdocs
-zipp==3.11.0
-    # via importlib-metadata
